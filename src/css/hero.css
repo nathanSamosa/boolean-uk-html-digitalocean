@@ -1,0 +1,34 @@
+#hero-image {
+    background-color: rgba(0, 74, 255, 1);
+    width: 100%;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 560px;
+    padding: 70px 0;
+}
+
+#hero-text {
+    padding: 10px 30px 10px 0;
+}
+
+#hero-text > p {
+    color : #B9CAFC;
+}
+
+#signup {
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 50px;;
+    row-gap: 10px;
+    text-align: center;
+    padding: 20px;
+    line-height: 50px;
+}
+
+#signup > a {
+    border: solid 1px black;
+}

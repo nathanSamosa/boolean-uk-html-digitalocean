@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+
+.container {
+    display: flex;
+    width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main > div:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+h1 {
+    color: white;
+    font-size: 4.8rem;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 2.5rem;
+    color: #031C4E;
+}
+h3 {
+    text-transform: uppercase;
+    color: #6F7B97;
+    font-size: 1.5rem;
+    padding: 50px;
+}
+h4 {
+    font-size: 2rem;
+}
+h5 {
+    font-size: 2rem;
+    color: #004AFF;
+}
+
+p {
+
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    font-weight: bold;
+}

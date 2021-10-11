@@ -1,0 +1,24 @@
+#partners {
+    text-align: center;
+    display: block;
+}
+
+#partners-list > li {
+    display: inline;
+}
+
+#partners-list > li > img {
+    height: 60px;
+    margin: 10px;
+}
+
+#partners > div {
+    padding: 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#partners > div > a {
+    color: #004AFF;
+    text-decoration: none;
+}
